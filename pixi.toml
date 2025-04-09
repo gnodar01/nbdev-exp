@@ -17,3 +17,4 @@ jupyterlab = ">=4.4.0,<5"
 nbdev-exp = { path = ".", extras = ["dev"], editable = true }
 nbdev = ">=2.4.2, <3"
 jupytext = ">=1.17.0, <2"
+ipyflow = ">=0.0.209, <0.0.210"
