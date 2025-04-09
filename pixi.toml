@@ -6,6 +6,8 @@ platforms = ["osx-64"]
 version = "0.1.0"
 
 [tasks]
+sync_nb = "jupytext --sync $PIXI_PROJECT_ROOT/nbs/*.ipynb"
+sync_py = "jupytext --sync $PIXI_PROJECT_ROOT/jpt/*.py"
 
 [dependencies]
 python = "3.10.*"
