@@ -12,6 +12,7 @@ sync_py = "jupytext --sync $PIXI_PROJECT_ROOT/jpt/*.py"
 [dependencies]
 python = "3.10.*"
 jupyterlab = ">=4.4.0,<5"
+watchexec = ">=2.2.0,<3"
 
 [pypi-dependencies]
 nbdev-exp = { path = ".", extras = ["dev"], editable = true }
