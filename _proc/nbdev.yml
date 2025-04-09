@@ -1,9 +1,0 @@
-project:
-  output-dir: _docs
-
-website:
-  title: "nbdev-exp"
-  site-url: "https://gnodar01.github.io/nbdev-exp"
-  description: "An experiment with nvdev"
-  repo-branch: main
-  repo-url: "https://github.com/gnodar01/nbdev-exp"
