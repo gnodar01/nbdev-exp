@@ -27,17 +27,17 @@ from nbdev.showdoc import *
 
 # %%
 #| export
-def foo(): return 'zzz'
+def foo(): pass
 
 
 # %%
 #| export
-def bar(): return 'bar'
+def bar(): pass
 
 
 # %%
 #| export
-def baz(): return 'baz'
+def baz(): pass
 
 
 # %%
@@ -46,7 +46,7 @@ import nbdev; nbdev.nbdev_export()
 
 # %%
 #| hide
-x = 0
+x = 8
 
 
 # %%
