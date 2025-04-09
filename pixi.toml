@@ -8,6 +8,7 @@ version = "0.1.0"
 [tasks]
 sync_nb = "jupytext --sync $PIXI_PROJECT_ROOT/nbs/*.ipynb"
 sync_py = "jupytext --sync $PIXI_PROJECT_ROOT/jpt/*.py"
+launch = "watchexec --workdir jpt -e .py pixi run sync_py && jupyter lab"
 
 [dependencies]
 python = "3.10.*"
@@ -19,3 +20,4 @@ nbdev-exp = { path = ".", extras = ["dev"], editable = true }
 nbdev = ">=2.4.2, <3"
 jupytext = ">=1.17.0, <2"
 ipyflow = ">=0.0.209, <0.0.210"
+jupyter-collaboration = ">=4.0.1, <5"

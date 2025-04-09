@@ -153,7 +153,13 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/22/2d/9c0b76f2f9cc0ebede1b9371b6f317243028ed60b90705863d493bae622e/ipywidgets-8.1.5-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/38/64/285f20a31679bf547b75602702f7800e74dbabae36ef324f716c02804753/jupyter-1.1.1-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/93/0c/53903f3b81bab52c9e1491c4a2ce895210abc4db7f4dd8419d0c153cf99b/jupyter_collaboration-4.0.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/22/a4/71dd6fbe7ed5c67577f30bbd7dd042712d7a9d14fa5de6d0dc14c0101c96/jupyter_collaboration_ui-2.0.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ca/77/71d78d58f15c22db16328a476426f7ac4a60d3a5a7ba3b9627ee2f7903d4/jupyter_console-6.6.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/6e/8a/18b0ff885f7f4c328777771616b77faa5e376eaa06212e0ea9ddb6cf06c0/jupyter_docprovider-2.0.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/54/d6/5e5bca083664b1dd368e261107cbe2d350e3bdc62bdba8720fdbb9b9db39/jupyter_server_fileid-0.9.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/6a/4c/be933593c35c994f4e41f34c4604ad926613e8eceec89a0db029dec833b9/jupyter_server_ydoc-2.0.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ae/a8/9b6ca97279ab736d970641515f5dd253cdcdee472f01c8f0567a794055ae/jupyter_ydoc-3.0.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a9/93/858e87edc634d628e5d752ba944c2833133a28fa87bb093e6832ced36a3e/jupyterlab_widgets-3.0.13-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/dc/46/c2fb92e01eb0423bae7fe91c3bf2ca994069f299a6455919f4a9a12960ed/jupytext-1.17.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/42/d7/1ec15b46af6af88f19b8e5ffea08fa375d433c998b8a7639e76935c14f1f/markdown_it_py-3.0.0-py3-none-any.whl
@@ -165,6 +171,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/f2/57/2f8d59ddc7f2d0d8ac4f80f869545bc44646fc78c1c083b3655c58e3edfb/notebook-7.0.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/cc/20/ff623b09d963f88bfde16306a54e12ee5ea43e9b597108672ff3a408aad6/pathspec-0.12.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/96/4e/4c2d94c126878159822f9b74f0b66509cf9d7cd6de63137a15491f8a7561/pyccolo-0.0.71-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/75/53/8ab4d70ea8d147cfc83c2d1ad972240cba8fd50c44c6680c444423e86128/pycrdt-0.12.11-cp310-cp310-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl
+      - pypi: https://files.pythonhosted.org/packages/53/87/69924f1eda964c990c5bda82f87f5551041161999203fc5637659fb6ce8a/pycrdt_websocket-0.15.4-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/d5/bb/6b3d94f713b8cf11f1f802bf625c5df8b98d1a176b9b4ce33c2da12dc977/sqlite_anyio-0.2.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/55/46/9a67ee697342ddf3c6daa97e3a587a56d6c4052f881ed926a849fcf7371c/watchdog-6.0.0-cp310-cp310-macosx_10_9_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/0b/2c/87f3254fd8ffd29e4c02732eee68a83a1d3c346ae39bc6822dcbcb697f2b/wheel-0.45.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/21/02/88b65cc394961a60c43c70517066b6b679738caf78506a5da7b88ffcb643/widgetsnbextension-4.0.13-py3-none-any.whl
@@ -928,6 +937,21 @@ packages:
   - ipykernel
   - ipywidgets
   - jupyterlab
+- pypi: https://files.pythonhosted.org/packages/93/0c/53903f3b81bab52c9e1491c4a2ce895210abc4db7f4dd8419d0c153cf99b/jupyter_collaboration-4.0.1-py3-none-any.whl
+  name: jupyter-collaboration
+  version: 4.0.1
+  sha256: a1cc13b82f1a4ea114c5085bad7a528f66127a71501b15287fefafa2f407963e
+  requires_dist:
+  - jupyter-collaboration-ui>=2.0.1,<3
+  - jupyter-docprovider>=2.0.1,<3
+  - jupyter-server-ydoc>=2.0.1,<3
+  - jupyterlab>=4.4.0,<5.0.0
+  requires_python: '>=3.8'
+- pypi: https://files.pythonhosted.org/packages/22/a4/71dd6fbe7ed5c67577f30bbd7dd042712d7a9d14fa5de6d0dc14c0101c96/jupyter_collaboration_ui-2.0.1-py3-none-any.whl
+  name: jupyter-collaboration-ui
+  version: 2.0.1
+  sha256: c04d9cedd6fec5e534404b2fe4aa48554e90a8978273cd2208665fc5a8a4ced4
+  requires_python: '>=3.8'
 - pypi: https://files.pythonhosted.org/packages/ca/77/71d78d58f15c22db16328a476426f7ac4a60d3a5a7ba3b9627ee2f7903d4/jupyter_console-6.6.3-py3-none-any.whl
   name: jupyter-console
   version: 6.6.3
@@ -945,6 +969,11 @@ packages:
   - pexpect ; extra == 'test'
   - pytest ; extra == 'test'
   requires_python: '>=3.7'
+- pypi: https://files.pythonhosted.org/packages/6e/8a/18b0ff885f7f4c328777771616b77faa5e376eaa06212e0ea9ddb6cf06c0/jupyter_docprovider-2.0.1-py3-none-any.whl
+  name: jupyter-docprovider
+  version: 2.0.1
+  sha256: ba4c60bb5a0b7bd8e8b9fdf747cf6ed6c69d572802ca4913e1781b70f24c183b
+  requires_python: '>=3.8'
 - conda: https://conda.anaconda.org/conda-forge/noarch/jupyter-lsp-2.2.5-pyhd8ed1ab_1.conda
   sha256: 1565c8b1423a37fca00fe0ab2a17cd8992c2ecf23e7867a1c9f6f86a9831c196
   md5: 0b4c3908e5a38ea22ebb98ee5888c768
@@ -958,6 +987,61 @@ packages:
   - pkg:pypi/jupyter-lsp?source=hash-mapping
   size: 55221
   timestamp: 1733493006611
+- pypi: https://files.pythonhosted.org/packages/54/d6/5e5bca083664b1dd368e261107cbe2d350e3bdc62bdba8720fdbb9b9db39/jupyter_server_fileid-0.9.3-py3-none-any.whl
+  name: jupyter-server-fileid
+  version: 0.9.3
+  sha256: f73c01c19f90005d3fff93607b91b4955ba4e1dccdde9bfe8026646f94053791
+  requires_dist:
+  - jupyter-events>=0.5.0
+  - jupyter-server>=1.15,<3
+  - click ; extra == 'cli'
+  - jupyter-server[test]>=1.15,<3 ; extra == 'test'
+  - pytest ; extra == 'test'
+  - pytest-cov ; extra == 'test'
+  - pytest-jupyter ; extra == 'test'
+  requires_python: '>=3.7'
+- pypi: https://files.pythonhosted.org/packages/6a/4c/be933593c35c994f4e41f34c4604ad926613e8eceec89a0db029dec833b9/jupyter_server_ydoc-2.0.1-py3-none-any.whl
+  name: jupyter-server-ydoc
+  version: 2.0.1
+  sha256: c0c9c2ec5d94e79c89c7171e23ac601537a4dea72435cacfcf1ddfbe945a999c
+  requires_dist:
+  - jsonschema>=4.18.0
+  - jupyter-events>=0.11.0
+  - jupyter-server-fileid>=0.7.0,<1
+  - jupyter-server>=2.15.0,<3.0.0
+  - jupyter-ydoc>=2.1.2,!=3.0.0,!=3.0.1,<4.0.0
+  - pycrdt
+  - pycrdt-websocket>=0.15.0,<0.16.0
+  - anyio ; extra == 'test'
+  - coverage ; extra == 'test'
+  - dirty-equals ; extra == 'test'
+  - httpx-ws>=0.5.2 ; extra == 'test'
+  - importlib-metadata>=4.8.3 ; python_full_version < '3.10' and extra == 'test'
+  - jupyter-server-fileid[test] ; extra == 'test'
+  - jupyter-server[test]>=2.15.0 ; extra == 'test'
+  - pytest-cov ; extra == 'test'
+  - pytest>=7.0 ; extra == 'test'
+  requires_python: '>=3.8'
+- pypi: https://files.pythonhosted.org/packages/ae/a8/9b6ca97279ab736d970641515f5dd253cdcdee472f01c8f0567a794055ae/jupyter_ydoc-3.0.3-py3-none-any.whl
+  name: jupyter-ydoc
+  version: 3.0.3
+  sha256: 8e788ddcbca1be432f6f6b3272203609c56aad470cbeed4461273d0d11f66717
+  requires_dist:
+  - importlib-metadata>=3.6 ; python_full_version < '3.10'
+  - pycrdt>=0.10.1,<0.13.0
+  - click ; extra == 'dev'
+  - jupyter-releaser ; extra == 'dev'
+  - pre-commit ; extra == 'dev'
+  - myst-parser ; extra == 'docs'
+  - pydata-sphinx-theme ; extra == 'docs'
+  - sphinx ; extra == 'docs'
+  - httpx-ws>=0.5.2 ; extra == 'test'
+  - hypercorn>=0.16.0 ; extra == 'test'
+  - pre-commit ; extra == 'test'
+  - pycrdt-websocket>=0.15.0,<0.16.0 ; extra == 'test'
+  - pytest ; extra == 'test'
+  - pytest-asyncio ; extra == 'test'
+  requires_python: '>=3.8'
 - conda: https://conda.anaconda.org/conda-forge/noarch/jupyter_client-8.6.3-pyhd8ed1ab_1.conda
   sha256: 19d8bd5bb2fde910ec59e081eeb59529491995ce0d653a5209366611023a0b3a
   md5: 4ebae00eae9705b0c3d6d1018a81d047
@@ -1766,6 +1850,46 @@ packages:
   purls: []
   size: 110100
   timestamp: 1733195786147
+- pypi: https://files.pythonhosted.org/packages/75/53/8ab4d70ea8d147cfc83c2d1ad972240cba8fd50c44c6680c444423e86128/pycrdt-0.12.11-cp310-cp310-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl
+  name: pycrdt
+  version: 0.12.11
+  sha256: df96b7631ec835966d83c5deda7b8e090caa42c8bf542f72e0dac6d91c91d4d2
+  requires_dist:
+  - anyio>=4.4.0,<5.0.0
+  - importlib-metadata>=3.6 ; python_full_version < '3.10'
+  - pytest>=7.4.2,<8 ; extra == 'test'
+  - pytest-mypy-testing ; extra == 'test'
+  - anyio ; extra == 'test'
+  - trio>=0.25.1,<0.30 ; extra == 'test'
+  - pydantic>=2.5.2,<3 ; extra == 'test'
+  - mypy ; extra == 'test'
+  - coverage[toml]>=7 ; extra == 'test'
+  - exceptiongroup ; python_full_version < '3.11' and extra == 'test'
+  - mkdocs ; extra == 'docs'
+  - mkdocs-material ; extra == 'docs'
+  - mkdocstrings[python] ; extra == 'docs'
+  requires_python: '>=3.9'
+- pypi: https://files.pythonhosted.org/packages/53/87/69924f1eda964c990c5bda82f87f5551041161999203fc5637659fb6ce8a/pycrdt_websocket-0.15.4-py3-none-any.whl
+  name: pycrdt-websocket
+  version: 0.15.4
+  sha256: 63c257cf67bfeade5d9943f98856aacd564f75586c8d696f06a957622e1fb152
+  requires_dist:
+  - anyio>=3.6.2,<5
+  - pycrdt>=0.10.3,<0.13.0
+  - sqlite-anyio>=0.2.3,<0.3.0
+  - channels ; extra == 'django'
+  - mkdocs ; extra == 'docs'
+  - mkdocs-material ; extra == 'docs'
+  - mkdocstrings-python ; extra == 'docs'
+  - httpx-ws>=0.5.2 ; extra == 'test'
+  - hypercorn>=0.16.0 ; extra == 'test'
+  - mypy!=1.10.0,!=1.10.1 ; extra == 'test'
+  - pre-commit ; extra == 'test'
+  - pytest ; extra == 'test'
+  - pytest-timeout ; extra == 'test'
+  - sniffio ; extra == 'test'
+  - trio>=0.25.0 ; extra == 'test'
+  requires_python: '>=3.8'
 - conda: https://conda.anaconda.org/conda-forge/noarch/pygments-2.19.1-pyhd8ed1ab_0.conda
   sha256: 28a3e3161390a9d23bc02b4419448f8d27679d9e2c250e29849e37749c8de86b
   md5: 232fb4577b6687b2d503ef8e254270c9
@@ -2065,6 +2189,17 @@ packages:
   - pkg:pypi/soupsieve?source=hash-mapping
   size: 36754
   timestamp: 1693929424267
+- pypi: https://files.pythonhosted.org/packages/d5/bb/6b3d94f713b8cf11f1f802bf625c5df8b98d1a176b9b4ce33c2da12dc977/sqlite_anyio-0.2.3-py3-none-any.whl
+  name: sqlite-anyio
+  version: 0.2.3
+  sha256: aa10fa23b7e2ce9c792376630572e1e5837e6f6a9892d90c9ad57419daf4bc01
+  requires_dist:
+  - anyio>=4.0,<5.0
+  - coverage[toml]>=7,<8 ; extra == 'test'
+  - mypy ; extra == 'test'
+  - pytest>=8,<9 ; extra == 'test'
+  - trio>=0.24.0,<0.25 ; extra == 'test'
+  requires_python: '>=3.8'
 - conda: https://conda.anaconda.org/conda-forge/noarch/stack_data-0.6.3-pyhd8ed1ab_1.conda
   sha256: 570da295d421661af487f1595045760526964f41471021056e993e73089e9c41
   md5: b1b505328da7a6b246787df4b5a49fbc
