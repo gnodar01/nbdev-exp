@@ -7,9 +7,9 @@
 #       format_version: '1.3'
 #       jupytext_version: 1.17.0
 #   kernelspec:
-#     display_name: Python 3 (ipykernel)
+#     display_name: Python 3 (ipyflow)
 #     language: python
-#     name: python3
+#     name: ipyflow
 # ---
 
 # %% [markdown]
@@ -27,18 +27,38 @@ from nbdev.showdoc import *
 
 # %%
 #| export
-def foo(): pass
+def foo(): return 'foo'
 
 # %%
 #| export
-def bar(): pass
+def bar(): return 'bar'
 
 
 # %%
 #| export
-def baz(): pass
+def baz(): return 'baz'
 
 
 # %%
 #| hide
 import nbdev; nbdev.nbdev_export()
+
+# %%
+#| hide
+x = 0
+
+
+# %%
+#| hide
+def get_x():
+    return x
+
+
+# %%
+#| hide
+y = 2
+
+# %%
+get_x() + y
+
+# %%

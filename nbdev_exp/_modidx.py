@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://gnodar01.github.io',
                 'git_url': 'https://github.com/gnodar01/nbdev-exp',
                 'lib_path': 'nbdev_exp'},
-  'syms': {'nbdev_exp.core': {'nbdev_exp.core.foo': ('core.html#foo', 'nbdev_exp/core.py')}}}
+  'syms': { 'nbdev_exp.core': { 'nbdev_exp.core.bar': ('core.html#bar', 'nbdev_exp/core.py'),
+                                'nbdev_exp.core.baz': ('core.html#baz', 'nbdev_exp/core.py'),
+                                'nbdev_exp.core.foo': ('core.html#foo', 'nbdev_exp/core.py')}}}
