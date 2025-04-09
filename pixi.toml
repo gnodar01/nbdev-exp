@@ -11,3 +11,6 @@ version = "0.1.0"
 python = "3.10.*"
 jupyterlab = ">=4.4.0,<5"
 nbdev = ">=2.3.34,<3"
+
+[pypi-dependencies]
+nbdev-exp = { path = ".", extras = ["dev"], editable = true }
