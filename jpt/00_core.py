@@ -27,7 +27,8 @@ from nbdev.showdoc import *
 
 # %%
 #| export
-def foo(): return 'foo'
+def foo(): return 'zzz'
+
 
 # %%
 #| export

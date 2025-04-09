@@ -8,12 +8,12 @@ version = "0.1.0"
 [tasks]
 sync_nb = "jupytext --sync $PIXI_PROJECT_ROOT/nbs/*.ipynb"
 sync_py = "jupytext --sync $PIXI_PROJECT_ROOT/jpt/*.py"
-launch = "watchexec --workdir jpt -e .py pixi run sync_py && jupyter lab"
+launch_jl = "jupyter lab"
+clean = "nbdev_clean"
 
 [dependencies]
 python = "3.10.*"
 jupyterlab = ">=4.4.0,<5"
-watchexec = ">=2.2.0,<3"
 
 [pypi-dependencies]
 nbdev-exp = { path = ".", extras = ["dev"], editable = true }
