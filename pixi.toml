@@ -1,0 +1,13 @@
+[project]
+authors = ["Nodar Gogoberidze <gnodar01@gmail.com>"]
+channels = ["fastai", "conda-forge"]
+name = "nbdev-exp"
+platforms = ["osx-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+jupyterlab = ">=4.4.0,<5"
+nbdev = ">=2.3.34,<3"
