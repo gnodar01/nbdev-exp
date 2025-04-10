@@ -9,7 +9,12 @@ version = "0.1.0"
 sync_nb = "jupytext --sync \"$PIXI_PROJECT_ROOT/nbs/*.ipynb\""
 sync_py = "jupytext --sync \"$PIXI_PROJECT_ROOT/jpt/*.py\""
 launch_jl = "jupyter lab"
+launch_preview = "nbdev_preview"
 clean = "nbdev_clean && rm -f \"$PIXI_PROJECT_ROOT/.jupyter_ystore.db\" && jupytext --sync \"PIXI_PROJECT_ROOT/jpt/*.py\""
+test = "nbdev_test"
+# could in theory have watchexec automate this
+tangle = "nbdev_export"
+readme = "nbdev_readme"
 
 [dependencies]
 python = "3.10.*"
