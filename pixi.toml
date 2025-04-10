@@ -6,10 +6,10 @@ platforms = ["osx-64"]
 version = "0.1.0"
 
 [tasks]
-sync_nb = "jupytext --sync $PIXI_PROJECT_ROOT/nbs/*.ipynb"
-sync_py = "jupytext --sync $PIXI_PROJECT_ROOT/jpt/*.py"
+sync_nb = "jupytext --sync \"$PIXI_PROJECT_ROOT/nbs/*.ipynb\""
+sync_py = "jupytext --sync \"$PIXI_PROJECT_ROOT/jpt/*.py\""
 launch_jl = "jupyter lab"
-clean = "nbdev_clean"
+clean = "nbdev_clean && rm -f \"$PIXI_PROJECT_ROOT/.jupyter_ystore.db\" && jupytext --sync \"PIXI_PROJECT_ROOT/jpt/*.py\""
 
 [dependencies]
 python = "3.10.*"
