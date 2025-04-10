@@ -9,7 +9,7 @@ __all__ = ['foo', 'bar', 'baz']
 def foo(): pass
 
 # %% ../nbs/00_core.ipynb 4
-def bar(): pass
+def bar(): return "bar"
 
-# %% ../nbs/00_core.ipynb 5
-def baz(): pass
+# %% ../nbs/00_core.ipynb 6
+def baz(): return "baz"

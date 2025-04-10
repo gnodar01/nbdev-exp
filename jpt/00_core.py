@@ -23,6 +23,7 @@
 # %%
 #| hide
 from nbdev.showdoc import *
+from fastcore.test import*
 
 
 # %%
@@ -32,13 +33,22 @@ def foo(): pass
 
 # %%
 #| export
-def bar(): pass
+def bar(): return "bar"
+
+
+# %%
+#| hide
+assert bar() == "bar"
 
 
 # %%
 #| export
-def baz(): pass
+def baz(): return "baz"
 
+
+# %%
+#| hide
+test_eq(baz(), "baz")
 
 # %%
 #| hide
