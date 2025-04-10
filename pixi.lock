@@ -151,6 +151,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/57/72/66babe2ae8a89b74584a4a5df183e9c2b09ee9d78a125fc017021db8e45f/ipyflow_core-0.0.209-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/22/2d/9c0b76f2f9cc0ebede1b9371b6f317243028ed60b90705863d493bae622e/ipywidgets-8.1.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b0/fe/ca790045f8dc5c74190a600512d81075b40c84c2c29c56c83949eb5cf6ba/JLDracula-0.2.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/38/64/285f20a31679bf547b75602702f7800e74dbabae36ef324f716c02804753/jupyter-1.1.1-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/93/0c/53903f3b81bab52c9e1491c4a2ce895210abc4db7f4dd8419d0c153cf99b/jupyter_collaboration-4.0.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/22/a4/71dd6fbe7ed5c67577f30bbd7dd042712d7a9d14fa5de6d0dc14c0101c96/jupyter_collaboration_ui-2.0.1-py3-none-any.whl
@@ -855,6 +856,13 @@ packages:
   - pkg:pypi/jinja2?source=compressed-mapping
   size: 112714
   timestamp: 1741263433881
+- pypi: https://files.pythonhosted.org/packages/b0/fe/ca790045f8dc5c74190a600512d81075b40c84c2c29c56c83949eb5cf6ba/JLDracula-0.2.0-py3-none-any.whl
+  name: jldracula
+  version: 0.2.0
+  sha256: 86ff223f1b72caf379b2be183aba3dd06de69a3b6efe934c9622dd58a9bcd6f6
+  requires_dist:
+  - jupyterlab>=3.0.0
+  requires_python: '>=3.6'
 - conda: https://conda.anaconda.org/conda-forge/noarch/json5-0.12.0-pyhd8ed1ab_0.conda
   sha256: 889e2a49de796475b5a4bc57d0ba7f4606b368ee2098e353a6d9a14b0e2c6393
   md5: 56275442557b3b45752c10980abfe2db
